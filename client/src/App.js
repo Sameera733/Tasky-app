@@ -10,6 +10,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
+        <Route path='/landingpage' element={<LandingPage/>}></Route>
       </Routes>
     </BrowserRouter>
   );
